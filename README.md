@@ -13,7 +13,7 @@ This Docker image provides a self-hosted GitHub Actions runner with the followin
 
 You must **manually download** the following Oracle and third-party binaries and **place them in the same directory** as the Dockerfile:
 
-|----------------------------------------|----------------------------------------------|------------------|
+
 | File Name                              | Description                                  | Source           |
 |----------------------------------------|----------------------------------------------|------------------|
 | `jdk-8u291-linux-x64.tar.gz`           | Oracle JDK 8u291                             | Oracle           |
@@ -22,7 +22,6 @@ You must **manually download** the following Oracle and third-party binaries and
 | `soasuite.response`                    | Silent installer response file               | As given in repo | 
 | `oraInst.loc`                          | Inventory pointer location file              | As given in repo |
 | `m2_extracted/`                        | Preloaded Maven repository (`.m2` directory) | Will be shared   |
-|----------------------------------------|----------------------------------------------|------------------|
 
 
 ## 📁 Directory Structure
